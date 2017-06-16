@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		D5D2738F1EE4CD21005BA456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D2738E1EE4CD21005BA456 /* AppDelegate.swift */; };
-		D5D273911EE4CD22005BA456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D273901EE4CD22005BA456 /* ViewController.swift */; };
+		D5D273911EE4CD22005BA456 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D273901EE4CD22005BA456 /* MainVC.swift */; };
 		D5D273941EE4CD2A005BA456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D273921EE4CD2A005BA456 /* Main.storyboard */; };
 		D5D273971EE4CD3B005BA456 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5D273951EE4CD37005BA456 /* DreamLister.xcdatamodeld */; };
 		D5D273991EE4CD3F005BA456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D273981EE4CD3F005BA456 /* Assets.xcassets */; };
 		D5D2739C1EE4CD44005BA456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D2739A1EE4CD44005BA456 /* LaunchScreen.storyboard */; };
+		DA2299991EF46F8800A288A3 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299911EF46F8800A288A3 /* Store+CoreDataClass.swift */; };
+		DA22999A1EF46F8800A288A3 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299921EF46F8800A288A3 /* Store+CoreDataProperties.swift */; };
+		DA22999B1EF46F8800A288A3 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299931EF46F8800A288A3 /* Item+CoreDataClass.swift */; };
+		DA22999C1EF46F8800A288A3 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299941EF46F8800A288A3 /* Item+CoreDataProperties.swift */; };
+		DA22999D1EF46F8800A288A3 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299951EF46F8800A288A3 /* ItemType+CoreDataClass.swift */; };
+		DA22999E1EF46F8800A288A3 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299961EF46F8800A288A3 /* ItemType+CoreDataProperties.swift */; };
+		DA22999F1EF46F8800A288A3 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299971EF46F8800A288A3 /* Image+CoreDataClass.swift */; };
+		DA2299A01EF46F8800A288A3 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299981EF46F8800A288A3 /* Image+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D5D2738B1EE4CD1A005BA456 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D2738E1EE4CD21005BA456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5D273901EE4CD22005BA456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5D273901EE4CD22005BA456 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		D5D273931EE4CD2A005BA456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5D273961EE4CD38005BA456 /* DreamLister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamLister.xcdatamodel; sourceTree = "<group>"; };
 		D5D273981EE4CD3F005BA456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5D2739B1EE4CD44005BA456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5D2739D1EE4CD50005BA456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2299911EF46F8800A288A3 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DA2299921EF46F8800A288A3 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DA2299931EF46F8800A288A3 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DA2299941EF46F8800A288A3 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DA2299951EF46F8800A288A3 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DA2299961EF46F8800A288A3 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DA2299971EF46F8800A288A3 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DA2299981EF46F8800A288A3 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +72,9 @@
 		D5D2738D1EE4CD1A005BA456 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				DA2299A11EF4700300A288A3 /* Model */,
 				D5D2738E1EE4CD21005BA456 /* AppDelegate.swift */,
-				D5D273901EE4CD22005BA456 /* ViewController.swift */,
+				D5D273901EE4CD22005BA456 /* MainVC.swift */,
 				D5D273921EE4CD2A005BA456 /* Main.storyboard */,
 				D5D273981EE4CD3F005BA456 /* Assets.xcassets */,
 				D5D2739A1EE4CD44005BA456 /* LaunchScreen.storyboard */,
@@ -65,6 +82,29 @@
 				D5D273951EE4CD37005BA456 /* DreamLister.xcdatamodeld */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		DA2299A11EF4700300A288A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA2299971EF46F8800A288A3 /* Image+CoreDataClass.swift */,
+				DA2299951EF46F8800A288A3 /* ItemType+CoreDataClass.swift */,
+				DA2299911EF46F8800A288A3 /* Store+CoreDataClass.swift */,
+				DA2299931EF46F8800A288A3 /* Item+CoreDataClass.swift */,
+				DA2299A21EF4700C00A288A3 /* Generated */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA2299A21EF4700C00A288A3 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				DA2299921EF46F8800A288A3 /* Store+CoreDataProperties.swift */,
+				DA2299941EF46F8800A288A3 /* Item+CoreDataProperties.swift */,
+				DA2299961EF46F8800A288A3 /* ItemType+CoreDataProperties.swift */,
+				DA2299981EF46F8800A288A3 /* Image+CoreDataProperties.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5D273911EE4CD22005BA456 /* ViewController.swift in Sources */,
+				DA22999C1EF46F8800A288A3 /* Item+CoreDataProperties.swift in Sources */,
+				DA22999B1EF46F8800A288A3 /* Item+CoreDataClass.swift in Sources */,
+				DA22999E1EF46F8800A288A3 /* ItemType+CoreDataProperties.swift in Sources */,
+				DA22999A1EF46F8800A288A3 /* Store+CoreDataProperties.swift in Sources */,
+				D5D273911EE4CD22005BA456 /* MainVC.swift in Sources */,
+				DA22999D1EF46F8800A288A3 /* ItemType+CoreDataClass.swift in Sources */,
+				DA2299991EF46F8800A288A3 /* Store+CoreDataClass.swift in Sources */,
 				D5D2738F1EE4CD21005BA456 /* AppDelegate.swift in Sources */,
 				D5D273971EE4CD3B005BA456 /* DreamLister.xcdatamodeld in Sources */,
+				DA22999F1EF46F8800A288A3 /* Image+CoreDataClass.swift in Sources */,
+				DA2299A01EF46F8800A288A3 /* Image+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +356,7 @@
 				D5D273A21EE4CD50005BA456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
