@@ -13,6 +13,7 @@
 		D5D273971EE4CD3B005BA456 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5D273951EE4CD37005BA456 /* DreamLister.xcdatamodeld */; };
 		D5D273991EE4CD3F005BA456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D273981EE4CD3F005BA456 /* Assets.xcassets */; };
 		D5D2739C1EE4CD44005BA456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D2739A1EE4CD44005BA456 /* LaunchScreen.storyboard */; };
+		DA11EDB81EF9BACB002634D6 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11EDB71EF9BACB002634D6 /* MaterialView.swift */; };
 		DA2299991EF46F8800A288A3 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299911EF46F8800A288A3 /* Store+CoreDataClass.swift */; };
 		DA22999A1EF46F8800A288A3 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299921EF46F8800A288A3 /* Store+CoreDataProperties.swift */; };
 		DA22999B1EF46F8800A288A3 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2299931EF46F8800A288A3 /* Item+CoreDataClass.swift */; };
@@ -32,6 +33,7 @@
 		D5D273981EE4CD3F005BA456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5D2739B1EE4CD44005BA456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5D2739D1EE4CD50005BA456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA11EDB71EF9BACB002634D6 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		DA2299911EF46F8800A288A3 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DA2299921EF46F8800A288A3 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DA2299931EF46F8800A288A3 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		D5D2738D1EE4CD1A005BA456 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				DA11EDB61EF9BA9C002634D6 /* View */,
 				DA2299A11EF4700300A288A3 /* Model */,
 				D5D2738E1EE4CD21005BA456 /* AppDelegate.swift */,
 				D5D273901EE4CD22005BA456 /* MainVC.swift */,
@@ -82,6 +85,14 @@
 				D5D273951EE4CD37005BA456 /* DreamLister.xcdatamodeld */,
 			);
 			path = DreamLister;
+			sourceTree = "<group>";
+		};
+		DA11EDB61EF9BA9C002634D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA11EDB71EF9BACB002634D6 /* MaterialView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		DA2299A11EF4700300A288A3 /* Model */ = {
@@ -183,6 +194,7 @@
 				DA22999C1EF46F8800A288A3 /* Item+CoreDataProperties.swift in Sources */,
 				DA22999B1EF46F8800A288A3 /* Item+CoreDataClass.swift in Sources */,
 				DA22999E1EF46F8800A288A3 /* ItemType+CoreDataProperties.swift in Sources */,
+				DA11EDB81EF9BACB002634D6 /* MaterialView.swift in Sources */,
 				DA22999A1EF46F8800A288A3 /* Store+CoreDataProperties.swift in Sources */,
 				D5D273911EE4CD22005BA456 /* MainVC.swift in Sources */,
 				DA22999D1EF46F8800A288A3 /* ItemType+CoreDataClass.swift in Sources */,
